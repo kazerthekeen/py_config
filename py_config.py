@@ -68,6 +68,7 @@ GLOBAL_CONFIG is for use as an importable singleton config file.
 GLOBAL_CONFIG = config()
 
 if __name__ == "__main__":
+    #OO00 a change
     c = config()
     c.load("sample_config.json")
     print(str(c))
